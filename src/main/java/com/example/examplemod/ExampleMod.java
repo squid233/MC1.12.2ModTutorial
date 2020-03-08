@@ -20,8 +20,8 @@ public class ExampleMod
     private static ExampleMod instance;
 
     @SidedProxy
-            (clientSide = "com.example.examplemod.ClientProxy",
-             serverSide = "com.example.examplemod.CommonProxy"
+            (clientSide = "com.example.examplemod.proxy.ClientProxy",
+             serverSide = "com.example.examplemod.proxy.CommonProxy"
             )
     private static CommonProxy proxy;
 
