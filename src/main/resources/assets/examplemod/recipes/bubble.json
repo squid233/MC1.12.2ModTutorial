@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "aax",
+    "a a",
+    "aaa"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "type": "forge:ore_dict",
+      "ore": "gemDiamond"
+    },
+    "a":
+    {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "result":
+  {
+    "item": "examplemod:bubble",
+    "count": 9
+  }
+}
